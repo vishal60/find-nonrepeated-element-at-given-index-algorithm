@@ -48,7 +48,7 @@ public class FindElement {
 		return strFinal;
 	}
 
-	public static char nonrepeatingElementsAt(String string, int i) {
+	public static char nonrepeatingElementsAt(String string, int i) throws StringIndexOutOfBoundsException{
 		return nonrepeatingElements(string).charAt(i-1);
 	}
 }
